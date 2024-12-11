@@ -1,0 +1,15 @@
+file_format: "1"
+id: crater
+name: Crater
+type: shield
+url: 
+requires: [nice_nano]
+exposes: [nice_view]
+features:
+  - keys
+  - display
+  - encoder
+  - backlight
+siblings:
+  - crater_left
+  - crater_right
