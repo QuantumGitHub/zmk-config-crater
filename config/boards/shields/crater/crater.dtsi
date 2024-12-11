@@ -6,9 +6,7 @@
         diode-direction = "col2row";
         wakeup-source;
     };
-};
 
-/ {
     default_transform: keymap_transform0 {
         compatible = "zmk,matrix-transform";
         columns = <12>;
