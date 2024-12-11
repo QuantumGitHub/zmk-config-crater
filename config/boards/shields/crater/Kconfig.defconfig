@@ -1,4 +1,4 @@
-if SHIELD_CRATER_LEFT
+if SHIELD_CRATER_RIGHT
 
 config ZMK_KEYBOARD_NAME
     default "Crater"
