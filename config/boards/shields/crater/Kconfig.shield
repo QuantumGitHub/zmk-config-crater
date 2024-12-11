@@ -1,0 +1,5 @@
+config SHIELD_CRATER_LEFT
+    def_bool $(shields_list_contains,crater_left)
+
+config SHIELD_CRATER_RIGHT
+    def_bool $(shields_list_contains,crater_right)
