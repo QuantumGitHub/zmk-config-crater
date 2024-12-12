@@ -59,14 +59,14 @@
         raise_layer {
 // ------------------------------------------------------------------------------------------------------------
 // |       |       |       |       |       |       |          |       |       |       |       |       |       |
-// |EXTPWR |RGB_HUD|RGB_HUI|RGB_SAD|RGB_SAI|RGB_EFF|          |       |       |       |       |       |       |
-// |       |RGB_BRD|RGB_BRI|RGB_TOG|       |       |          |   <-  |   V   |   ^   |   ->  |       |       |
+// |XPWR On|RGB_HUD|RGB_HUI|RGB_SAD|RGB_SAI|RGB_EFF|          |       |       |       |       |       |       |
+// |XPWROff|RGB_BRD|RGB_BRI|RGB_TOG|       |       |          |   <-  |   V   |   ^   |   ->  |       |       |
 // |       |       |       |       |       |       |          |       |       |       |       |       |       |
 // |       |       |       |       |       |       |          |       |       |       |       |       |       |
                         bindings = <
    &trans            &trans          &trans          &trans          &trans          &trans                 &trans    &trans    &trans   &trans   &trans  &trans
-   &ext_power EP_TOG &rgb_ug RGB_HUD &rgb_ug RGB_HUI &rgb_ug RGB_SAD &rgb_ug RGB_SAI &rgb_ug RGB_EFF        &trans    &trans    &trans   &trans   &trans  &trans
-   &trans            &rgb_ug RGB_BRD &rgb_ug RGB_BRI &rgb_ug RGB_TOG &trans          &trans                 &LEFT     &kp DOWN  &kp UP   &RIGHT   &trans  &trans
+   &ext_power EP_ON  &rgb_ug RGB_HUD &rgb_ug RGB_HUI &rgb_ug RGB_SAD &rgb_ug RGB_SAI &rgb_ug RGB_EFF        &trans    &trans    &trans   &trans   &trans  &trans
+   &ext_power EP_OFF &rgb_ug RGB_BRD &rgb_ug RGB_BRI &rgb_ug RGB_TOG &trans          &trans                 &kp LEFT  &kp DOWN  &kp UP   &RIGHT   &trans  &trans
    &trans            &trans          &trans          &trans          &trans          &trans                 &trans    &trans    &trans   &trans   &trans  &trans
    &trans            &trans          &trans          &trans          &trans          &trans                 &trans    &trans    &trans   &trans   &trans  &trans
                         >;
