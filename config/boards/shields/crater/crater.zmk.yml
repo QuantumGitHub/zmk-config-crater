@@ -3,13 +3,13 @@ id: crater
 name: Crater
 type: shield
 url: 
-requires: [nice_nano]
+requires: [nice_nano_v2]
 exposes: [nice_view]
 features:
   - keys
-  - display
   - encoder
-  - backlight
+  - display
+  - underglow
 siblings:
   - crater_left
   - crater_right

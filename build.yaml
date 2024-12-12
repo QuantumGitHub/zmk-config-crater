@@ -20,6 +20,6 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: crater_left
+    shield: crater_left nice_view
   - board: nice_nano_v2
     shield: crater_right
