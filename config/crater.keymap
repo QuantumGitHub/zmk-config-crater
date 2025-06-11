@@ -18,20 +18,19 @@
 #define DPlus 4
 
 / {
-
-    keymap {
-        compatible = "zmk,keymap";
-
-        behaviors {
-                fn_key {
+    behaviors {
+        fn_key {
                 compatible = "zmk,behavior-mod-morph";
                 // how many arguments should be passed from the keymap to this function, here there are no arguments -> &fn_key
                 // when it is 1, then &fn_key <something>
                 #binding-cells = <0>;
                 bindings = <&sl FN>, <&tog FN>; //sticky layer
                 mods = <(MOD_LSFT|MOD_RSFT)>;
-                };
         };
+    };
+
+    keymap {
+        compatible = "zmk,keymap";
 
         default_layer {
 // ------------------------------------------------------------------------------------------------------------
