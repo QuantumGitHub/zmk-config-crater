@@ -53,6 +53,8 @@
     };
 };
 
+#define FN 3
+
 / {
     behaviors {
         fn_key {
