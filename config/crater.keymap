@@ -19,7 +19,7 @@
 
 / {
     behaviors {
-        fn_key : function_key {
+        fn_key: function_key {
                 compatible = "zmk,behavior-mod-morph";
                 // how many arguments should be passed from the keymap to this function, here there are no arguments -> &fn_key
                 // when it is 1, then &fn_key <something>
